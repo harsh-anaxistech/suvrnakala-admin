@@ -1,0 +1,75 @@
+body {
+  background: linear-gradient(135deg, #e0e7ff 0%, #f8f9fc 100%);
+}
+
+.dashboard-container {
+  background: transparent;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.modern-card {
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.modern-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15) !important;
+}
+
+.sales-card {
+  background: linear-gradient(45deg, #ff6b6b, #ff8e53);
+}
+
+.inventory-card {
+  background: linear-gradient(45deg, #4ecdc4, #56ccf2);
+}
+
+.customers-card {
+  background: linear-gradient(45deg, #45b7d1, #96ceb4);
+}
+
+.orders-card {
+  background: linear-gradient(45deg, #f6c23e, #f4a261);
+}
+
+.chart-card {
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.card-content {
+  z-index: 1;
+}
+
+.card-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.card-subtitle {
+  font-size: 1rem;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.icon-glow {
+  color: #fff;
+  opacity: 0.9;
+  filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.5));
+}
+
+.chart-card .card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+}
